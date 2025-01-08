@@ -13,7 +13,7 @@ jobs:
      - name: checkout repositry
        uses: actions/checkout@v4
      - name: install HTMLHint
-       run: npm indstall --save-dev htmlhint
+       run: npm install --save-dev htmlhint
      - name: install Stylelint
        run: npm install --save-dev stylelint
      - name: Lint HTML Files
